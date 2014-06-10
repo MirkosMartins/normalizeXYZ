@@ -11,7 +11,7 @@ import java.util.LinkedList;
 public class Principal {
 	
 	
-	LinkedList<Estrutura> atomos = new LinkedList<Estrutura>();
+	LinkedList<Atom> atomos = new LinkedList<Atom>();
 	int status_normatizado = 0;
 	
 	BigDecimal max_x= new BigDecimal("0"), max_y= new BigDecimal("0"), 
@@ -92,7 +92,7 @@ public class Principal {
 			if(tokens.length>1){
 				//System.out.println("Trabalhando na linha: "+linha);
 				//System.out.println("Numero de tokens: "+tokens.length);
-				Estrutura atomo = new Estrutura();
+				Atom atomo = new Atom();
 				atomo.setNumAtom(Integer.valueOf(tokens[0]));
 				//Double coo_x = Double.valueOf(tokens[1]);
 				System.out.println(tokens[1]);

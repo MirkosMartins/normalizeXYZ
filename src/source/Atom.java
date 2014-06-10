@@ -2,7 +2,7 @@ package source;
 
 import java.math.BigDecimal;
 
-public class Estrutura {
+public class Atom {
 
 	int numAtom;
 	BigDecimal coox, cooy, cooz;
